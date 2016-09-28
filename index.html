@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src="mvo.js"></script>
+
+    <title>CC</title>
+</head>
+<body>
+
+<div id="list"></div>
+<div id="cat"></div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+
+
+<div>
+<h3> a. Hvað er MVC í hugbúnaðargerð?</h3>
+    MVC er hugmúnaðarmynstur (pattern). MVC stendur fyrir Model(gögn),view(sýn það sem að notandi sér),controller(sá sem sýrir flæði gagna og lætur vita þegar á að endurteikna viewið.
+    þetta gefur góða leið til að skipulegggja kóaðann sinn á þæginlegann hátt.
+    <h3>  b. Hvernig er MVC í vefþróun frábrugðin MVC í hugbúnaðargerð? </h3>
+    MVC í vefþróun er yfirleitt þannig að view(sýnin) er html sem er sýnt í browser ern búið til á server. MVC í hugnbúnaðargerð er þannig að allt lifir á client hliðinni svo þegar að notandi td smellir á takka þá er controllerinn inni í hugbúnaðinum en ekki á servernum.
+        <h3>   c. Hverjir eru kostir þess að nota MV* í framenda (SPA og client-side MVC), Hvað gefur það okkur?</h3>
+    ef þú ert með spa(single page application) þá hegðar það sér svipað og annar client hugbúnaður(windows forms) og gefur okkur góða leið til að aðgreina vandamál sem verið er að leysa. td model getur hugsað bara um að geyma og breyta gögnum; view einbeiri sér að því að teikna viðmóta fyrir notandann. og conroller einbeitir sér að því að taka við aðgerðum frá viðmóti og láta módelið vita af breytingum sem þarf að gera á gögnum.
+                <h3>d. Hvað er Databinding?</h3>
+    databinding er þegar gögn eru bundin við td template til að smíða view. Handlebars býður uppá slíkt databinding..
+</div>
+
+
+</body>
+</html>
